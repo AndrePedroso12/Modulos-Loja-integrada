@@ -1,0 +1,22 @@
+<div id="CategoriasIcon">
+  <div class="container">
+    <div class="titulo-categoria">
+      <strong
+        >Para <span style="color: #e779b3">TODOS</span> seus AUmigos!</strong
+      >
+    </div>
+    <div class="row"></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(window).bind("load", function () {
+      $("#CategoriasIcon").insertBefore(".vitrine-produtos.vitrine-destaque");
+      setTimeout(InsereBanner, 1500);
+      function InsereBanner() {
+        $(".banners-vitrine-mas-vendido").appendTo("#CategoriasIcon .row");
+      }
+    });
+  });
+</script>
