@@ -1,0 +1,16 @@
+<p id="gatos">Gatos</p>
+<p id="cachorros">Cachorros</p>
+<p id="filhotes">Filhotes</p>
+<p id="kits">Kits</p>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    setTimeout(InsereBanner, 1500);
+    function InsereBanner() {
+      $("#gatos").insertAfter(".banners-extras li:nth-of-type(1) img");
+      $("#cachorros").insertAfter(".banners-extras li:nth-of-type(2) img");
+      $("#filhotes").insertAfter(".banners-extras li:nth-of-type(3) img");
+      $("#kits").insertAfter(".banners-extras li:nth-of-type(4) img");
+    }
+  });
+</script>
