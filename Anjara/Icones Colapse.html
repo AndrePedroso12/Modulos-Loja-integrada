@@ -1,0 +1,130 @@
+<div id="conteudo-icones">
+  <div class="container">
+    <div class="titulo-categoria">
+      <strong>Desperte seus sentidos</strong>
+    </div>
+    <div class="row icones">
+      <button
+        type="button"
+        data-toggle="collapse"
+        data-target="#olfato"
+        aria-expanded="false"
+        aria-controls="olfato"
+      >
+        <img
+          src="https://cdn.awsli.com.br/2495/2495925/arquivos/olfato2.svg"
+          alt="Olfato"
+        />
+        <p>Olfato</p>
+        <img
+          src="https://cdn.awsli.com.br/2495/2495925/arquivos/flecha-icones.svg"
+          alt=""
+          class="icone-seta"
+        />
+      </button>
+
+      <button
+        type="button"
+        data-toggle="collapse"
+        data-target="#sensacoes"
+        aria-expanded="false"
+        aria-controls="sensacoes"
+      >
+        <img
+          src="https://cdn.awsli.com.br/2495/2495925/arquivos/sensacoes2.svg"
+          alt="Sensações"
+        />
+        <p>Sensações</p>
+        <img
+          src="https://cdn.awsli.com.br/2495/2495925/arquivos/flecha-icones.svg"
+          alt=""
+          class="icone-seta"
+        />
+      </button>
+
+      <button
+        type="button"
+        data-toggle="collapse"
+        data-target="#concetracao"
+        aria-expanded="false"
+        aria-controls="concetracao"
+      >
+        <img
+          src="https://cdn.awsli.com.br/2495/2495925/arquivos/concentracao2.svg"
+          alt="Concentração"
+        />
+        <p>Concentração</p>
+        <img
+          src="https://cdn.awsli.com.br/2495/2495925/arquivos/flecha-icones.svg"
+          alt=""
+          class="icone-seta"
+        />
+      </button>
+
+      <button
+        type="button"
+        data-toggle="collapse"
+        data-target="#bom-humor"
+        aria-expanded="false"
+        aria-controls="bom-humor"
+      >
+        <img
+          src="https://cdn.awsli.com.br/2495/2495925/arquivos/bom-humor2.svg"
+          alt="Bom humor"
+        />
+        <p>Bom humor</p>
+        <img
+          src="https://cdn.awsli.com.br/2495/2495925/arquivos/flecha-icones.svg"
+          alt=""
+          class="icone-seta"
+        />
+      </button>
+    </div>
+    <div class="row textos">
+      <div id="olfato" class="collapse">
+        <div class="card card-body">
+          <p>Olfato</p>
+          É o único dos cinco sentidos que tem conexão direta com o sistema
+          límbixo do nosso cérebro, o responsável por gerenciar nossas emoções e
+          as nossas memórias.
+        </div>
+      </div>
+
+      <div id="sensacoes" class="collapse">
+        <div class="card card-body">
+          <p>Sensações</p>
+          A intensa conexão entre cérebro e o olfato geram recordações
+          imediatas. O aroma de cada lembrança é como uma máquina do tempo das
+          sensações. Bastam apenas poucos segundos para que os aromas nos façam
+          reviver experiências.
+        </div>
+      </div>
+
+      <div id="concetracao" class="collapse">
+        <div class="card card-body">
+          <p>Concentração</p>
+          Estudos mostram que o nível de atenção pode aumentar cerca de 20% em
+          ambientes aromatizados comparados aos ambientes sem aroma.
+        </div>
+      </div>
+
+      <div id="bom-humor" class="collapse">
+        <div class="card card-body">
+          <p>Bom humor</p>
+          Algumas fragrâncias são capazes de nos motivar, de melhorar nossos
+          processos cognitivos e de melhorar até mesmo o nosso humor.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#conteudo-icones").insertBefore("#corpo");
+    var $conteudoicones = $("#conteudo-icones");
+    $conteudoicones.on("show.bs.collapse", ".collapse", function () {
+      $conteudoicones.find(".collapse.in").collapse("hide");
+    });
+  });
+</script>

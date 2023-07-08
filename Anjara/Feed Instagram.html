@@ -1,0 +1,32 @@
+<div id="instagram-feed" class="hide listagem">
+  <div class="container">
+    <div class="titulo-categoria borda-principal cor-principal">
+      <strong
+        >Siga-nos no Instagram
+        <a href="https://www.instagram.com/sintaanjara/"
+          >@sintaanjara</a
+        ></strong
+      >
+    </div>
+    <!-- SnapWidget -->
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+    <iframe
+      src="https://snapwidget.com/embed/1026062"
+      class="snapwidget-widget"
+      allowtransparency="true"
+      frameborder="0"
+      scrolling="no"
+      style="border: none; overflow: hidden; width: 100%"
+    ></iframe>
+  </div>
+</div>
+<script type="text/javascript">
+  $(document).ready(function () {
+    // $('#instagram-feed').appendTo('.secao-secundaria');
+    $("#depoimentos").appendTo("#corpo .secao-secundaria");
+    $("#instagram-feed")
+      .removeClass("hide")
+      .appendTo(".secao-secundaria")
+      .insertAfter("#depoimentos");
+  });
+</script>

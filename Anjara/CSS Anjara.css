@@ -1,0 +1,717 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+@import url("https://fonts.cdnfonts.com/css/galantis");
+
+.secao-secundaria {
+  order: 9;
+  background-color: white;
+}
+
+.cores-personalizadas #cabecalho {
+  background: white;
+}
+
+.painel .b span {
+  color: black;
+}
+
+.painel .d > a {
+  font-weight: 700;
+  color: black !important;
+}
+
+.cores-personalizadas #cabecalho .painel .a > svg,
+.cores-personalizadas .icone-carrinho svg,
+.cores-personalizadas .menu-mobile-button svg,
+.cores-personalizadas .busca-topo svg {
+  fill: black;
+}
+
+.cores-personalizadas #cabecalho .painel .carrinho > a strong {
+  background: black;
+  color: white;
+}
+
+.cores-personalizadas #cabecalho .painel .a .d svg {
+  fill: black;
+}
+
+#cabecalho.logo-centro .busca-mobile {
+  display: none !important;
+}
+
+#cabecalho.logo-centro .logo {
+  margin: 0 auto 0 0;
+}
+
+.banners-vantagens {
+  border-bottom: none;
+}
+
+.cores-personalizadas .banners-vantagens {
+  background: white;
+}
+
+.cores-personalizadas .vantagem-texto strong {
+  color: black;
+}
+
+.cores-personalizadas .vantagem-texto span {
+  color: black;
+}
+
+body.cores-personalizadas {
+  background: white;
+}
+
+.banners-extras .row-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.banners-vitrine-mini {
+  padding: 0;
+}
+
+.banner-extra.banner-vitrine-mini {
+  position: relative;
+}
+
+.banner-vitrine-mini img {
+  box-shadow: 10px 7px 8px 3px rgb(0 0 0 / 15%);
+  border-radius: 8px;
+}
+
+.overlay-minibanner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 2;
+  color: white;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 35px;
+  padding: 30% 0;
+  outline: 2px solid white;
+  outline-offset: -20px;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+.overlay-minibanner:hover::after {
+  opacity: 0;
+}
+
+.cores-personalizadas .titulo-categoria strong,
+.cores-personalizadas .categoria-titulo h1,
+.cores-personalizadas .posts-titulo h1,
+.cores-personalizadas .posts-resumo p,
+.cores-personalizadas .cabecalho-interno .titulo,
+.cores-personalizadas .comentarios-count a,
+.cores-personalizadas .posts-autor-data.com-comentarios,
+.cores-personalizadas .posts-autor-data.com-comentarios a,
+.cores-personalizadas .carrossel-departamentos .departamento-titulo {
+  color: black;
+}
+
+body .titulo-categoria:before {
+  content: "";
+  display: block;
+  width: 32%;
+  height: 1px;
+  background: black;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+body .titulo-categoria:after {
+  content: "";
+  display: block;
+  width: 32%;
+  height: 1px;
+  background: black;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+body .titulo-categoria {
+  order: -1;
+}
+
+body .titulo-categoria strong {
+  font-size: 28px;
+  font-weight: 700;
+  z-index: 1;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 33%;
+  text-align: center;
+  flex-direction: column;
+}
+
+.listagem .listagem-item .listagem-item-wrap {
+  border-radius: 24px;
+  border: none;
+  box-shadow: 6px 10px 10px 0px rgb(0 0 0 / 6%);
+  -webkit-box-shadow: 6px 10px 10px 0px rgb(0 0 0 / 6%);
+  -moz-box-shadow: 6px 10px 10px 0px rgb(0 0 0 / 6%);
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+
+.listagem .listagem-item:hover .listagem-item-wrap {
+  border-radius: 24px;
+  box-shadow: 0 1px 6px 3px rgb(181 181 181 / 15%);
+  border: none;
+}
+
+.listagem .listagem-item.acoes-fixar .acoes-produto {
+  border-radius: 30px;
+}
+
+.listagem .listagem-item .info-produto.prodTxt-2 .nome-produto {
+  font-weight: 800;
+  font-size: x-large;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.listagem .listagem-item .info-produto {
+  text-align: left;
+}
+
+.preco-promocional,
+.preco-venda {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.listagem .listagem-item .info-produto .preco-produto {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  text-align: left;
+}
+
+.preco-produto .desconto-a-vista {
+  justify-content: flex-start;
+}
+
+.cores-personalizadas .botao.principal,
+.cores-personalizadas .bandeira-personalizar {
+  background: #07a371 !important;
+  color: white;
+  fill: black;
+}
+
+.botao-whatsapp {
+  position: absolute;
+  top: 135%;
+  width: 83%;
+  margin: 0 auto;
+  right: 7%;
+  left: auto;
+}
+
+#banner2 {
+  order: 6;
+  margin-top: 5rem;
+}
+
+.listagem.listagem-desktop-prod3 .vitrine-normal .listagem-item {
+  width: 29.1%;
+}
+
+.listagem .vitrine-normal .listagem-item {
+  margin: 1.6%;
+}
+
+#depoimentos .conteiner {
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  max-width: 1180px;
+  margin: 50px auto 15px;
+}
+
+#depoimentos .flexslider {
+  margin-top: 40px;
+}
+
+#depoimentos .avatar {
+  width: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#depoimentos blockquote {
+  border-left: none;
+  font-family: "Poppins";
+}
+
+#depoimentos blockquote p {
+  margin-bottom: 20px;
+  color: #818181;
+  font-size: larger;
+}
+
+cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+}
+
+#conteudo-icones button {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background: none;
+  align-items: center;
+  font-weight: bold;
+  font-size: x-large;
+  position: relative;
+}
+
+#conteudo-icones .icones {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: 3rem 0;
+}
+
+@keyframes pula {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#conteudo-icones .icones p {
+  margin-top: 20px;
+}
+
+#conteudo-icones .card-body {
+  width: 68%;
+  margin: 2rem auto;
+  background-color: #48a646;
+  font-family: "Poppins";
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 18px;
+}
+
+img.icone-seta {
+  position: absolute;
+  bottom: 20px;
+  right: -25px;
+  animation-name: pula;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+[data-target="#olfato"] .icone-seta {
+  animation-delay: 1s;
+}
+
+[data-target="#sensacoes"] .icone-seta {
+  animation-delay: 1.5s;
+}
+
+[data-target="#concetracao"] .icone-seta {
+  animation-delay: 2s;
+}
+
+[data-target="#bom-humor"] .icone-seta {
+  animation-delay: 2.5s;
+}
+
+#conteudo-icones {
+  background: #cf9e8d;
+  color: white;
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+#conteudo-icones strong,
+#conteudo-icones p {
+  color: white;
+}
+
+body #conteudo-icones .titulo-categoria:before,
+body #conteudo-icones .titulo-categoria:after {
+  background: white;
+}
+
+.collapse p {
+  font-weight: bold;
+  font-family: "Source Serif Pro";
+  font-size: larger;
+}
+
+.pagina-inicial .botao-whatsapp {
+  display: none;
+}
+
+.overlay-minibanner p {
+  font-family: "Galantis", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 25px;
+  padding: 30% 10%;
+  transition: 0.2s;
+}
+
+#rodape {
+  position: relative;
+  font-family: "Poppins";
+}
+
+.contato-titulo {
+  font-weight: bold !important;
+}
+
+#rodape .a-block-cont strong {
+  font-weight: 200;
+}
+
+#rodape .rodape-sobre p {
+  font-family: "Poppins";
+  font-weight: 100;
+}
+
+#rodape .logo a img {
+  padding-bottom: 20px;
+}
+
+#rodape .rodape-social .lista-redes ul li a svg {
+  width: 22px;
+  height: 22px;
+}
+
+.notificacao-venda a {
+  font-family: "Poppins";
+}
+
+.notificacao-venda .notp-nome {
+  font-weight: bold;
+}
+
+.notificacao-venda .notp-preco {
+  font-weight: 100;
+  color: #74cb74;
+}
+
+#rodape .rodape-inferior .creditos.agencia {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  #conteudo-icones .icones p {
+    font-size: large;
+  }
+
+  #conteudo-icones img {
+    max-width: 50px;
+  }
+
+  body .titulo-categoria strong {
+    font-size: larger;
+  }
+
+  .listagem .listagem-item .info-produto.prodTxt-2 .nome-produto {
+    font-size: 14px;
+  }
+
+  img.icone-seta {
+    right: 35%;
+    bottom: -1rem;
+  }
+
+  body .titulo-categoria:before {
+    width: 13%;
+    left: 17%;
+  }
+
+  body .titulo-categoria:after {
+    width: 13%;
+    right: 16%;
+  }
+
+  #depoimentos blockquote p {
+    font-size: small;
+    margin-bottom: 5px;
+  }
+
+  #depoimentos .avatar {
+    width: 55px;
+    margin-bottom: 5px;
+  }
+
+  .busca-topo {
+    display: none;
+  }
+
+  #cabecalho.logo-centro .logo {
+    margin: 0 auto;
+  }
+
+  .overlay-minibanner p {
+    font-size: 25px;
+    padding: 20% 10%;
+  }
+
+  .row-fluid.banner.mini-banner {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto !important;
+  }
+
+  #rodape button {
+    font-family: "Poppins";
+  }
+
+  .menu-mobile-wrap {
+    font-family: "Poppins";
+  }
+
+  .painel-mobile .item-mobile a span {
+    font-weight: 500;
+  }
+
+  .listagem .listagem-item .acoes-produto .seletor {
+    width: 162px;
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+  }
+
+  .listagem-item:nth-of-type(3) {
+    display: none;
+  }
+
+  #conteudo-icones .card-body {
+    width: 92%;
+    margin: 1rem auto;
+  }
+
+  #conteudo-icones {
+    margin-top: 0;
+  }
+
+  #banner2 {
+    order: 6;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 1700px) {
+  .overlay-minibanner p {
+    font-size: 27px;
+    padding: 18% 8%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .overlay-minibanner p {
+    font-size: 19px;
+    padding: 18% 8%;
+  }
+}
+
+/* ---------- Pagina de Produtos ----------*/
+
+.info-principal-produto .nome-produto {
+  font-family: "Poppins", sans-serif;
+  color: #076007;
+  font-weight: 900;
+}
+
+.produto-detalhes {
+  background: #cf9e8d;
+  margin: 0 !important;
+  padding-bottom: 70px;
+}
+
+.produto-detalhes-detalhes {
+  background: white;
+  padding: 2rem;
+  margin-top: 26px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 4px 12px 8px 2px #00000017;
+}
+
+.info-principal-produto .codigo-produto {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+.produto-detalhes .calculadora-pp .calculadora-titulo {
+  color: white;
+  background: #07a371 !important;
+}
+
+.produto-detalhes .calculadora-pp .calculadora-titulo svg {
+  width: 42px;
+  height: 42px;
+  background: white;
+  fill: #07a371;
+  margin-right: 15px;
+  padding: 10px 0;
+  border-radius: 30px;
+}
+
+.produto-detalhes .calculadora-pp .calculadora-titulo span {
+  color: white;
+}
+
+.produto-detalhes .botao-comprar {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  background: green !important;
+}
+
+.produto .acoes-produto .preco-parcela {
+  font-size: 13px;
+  font-family: "Poppins";
+}
+
+.produto-detalhes .botao-whatsapp {
+  position: unset;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  width: 85%;
+  margin: 20px 0 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .produto-detalhes .botao-whatsapp {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
+
+.botao-whatsapp span {
+  font-size: 21px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+
+.produto-detalhes .botao-whatsapp a {
+  width: auto;
+}
+
+.botao-whatsapp svg {
+  width: 22px;
+  height: 23px;
+  margin-left: 11px;
+}
+
+.produto-detalhes .calculadora-pp .calculadora-area .calc-input .a {
+  font-family: "Poppins";
+}
+
+.produto-detalhes .mais-formas span {
+  font-family: "Poppins";
+  /* color: black; */
+}
+
+.produto-detalhes .pix-valor {
+  font-family: "Poppins";
+}
+
+.pagina-produto .atributos {
+  border: none;
+}
+
+#carouselImagem ul li a img {
+  object-fit: contain;
+}
+
+.produto-detalhes .cep #formCalcularCep {
+  font-family: "Poppins";
+}
+
+.produto-detalhes .cep #formCalcularCep .input-append button {
+  font-family: "Poppins";
+}
+
+.share-social {
+  display: none;
+}
+
+.share-desejos {
+  margin: 0;
+  border: none;
+  color: white;
+}
+
+.share-desejos span {
+  color: white;
+  font-family: "Poppins";
+}
+
+.share-desejos svg {
+  fill: white;
+}
+
+.produto-detalhes-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.produto-descricao .conteiner {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 !important;
+}
+
+.abas-custom .titulo-categoria {
+  display: none !important;
+}
+
+.resumo-flutuante {
+  left: 0;
+  right: auto;
+  border-radius: 0 70px 0 0;
+  border: none;
+  border-right: 0;
+  box-shadow: 6px 16px 20px 9px rgb(0 0 0 / 22%);
+  bottom: 1px;
+  padding: 20px;
+}
